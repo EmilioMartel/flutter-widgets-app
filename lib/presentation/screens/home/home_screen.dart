@@ -57,6 +57,14 @@ class _CustomListTile extends StatelessWidget {
       iconColor: colors.primary,
       onTap: () {
         //todo: navegar a otra pantalla
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => const ButtonsScreen(),
+        //   ),
+        // );
+        
+        Navigator.pushNamed(context, menuItem.link);
+
       },
       splashColor: Colors.amber,
       
