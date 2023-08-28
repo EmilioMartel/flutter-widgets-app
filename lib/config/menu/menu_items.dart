@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class MenuItems {
@@ -15,8 +13,6 @@ class MenuItems {
     required this.icon
   });
 }
-
-
 
 const appMenuItems = <MenuItems> [
   MenuItems(
@@ -40,11 +36,18 @@ const appMenuItems = <MenuItems> [
     icon: Icons.refresh
   ),
 
-   MenuItems(
+  MenuItems(
     title: 'Snackbars y diálogos', 
     subTitle: 'Indicadores en pantalla', 
     link: '/snackbars', 
     icon: Icons.info_outline
+  ),
+
+  MenuItems(
+    title: 'Animated container', 
+    subTitle: 'Stateful widget animado', 
+    link: '/animated', 
+    icon: Icons.check_box_outlined
   ),
 
 
