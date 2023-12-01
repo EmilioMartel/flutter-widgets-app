@@ -38,7 +38,7 @@ final appRouter = GoRouter(
 
     GoRoute(
       name: AnimatedScreen.name,
-      path: '/animated',
+      path: '/animated_screen',
       builder: (context, state) => const AnimatedScreen(),
     ),
 
